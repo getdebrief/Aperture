@@ -31,7 +31,7 @@ public final class Aperture: NSObject {
 	) throws {
 		self.destination = destination
 		self.session = AVCaptureSession()
-		self.session.sessionPreset = AVCaptureSession.Preset.medium
+		self.session.sessionPreset = AVCaptureSession.Preset.hd1280x720
 		self.output = output
 
 		// Needed because otherwise there is no audio on videos longer than 10 seconds.
